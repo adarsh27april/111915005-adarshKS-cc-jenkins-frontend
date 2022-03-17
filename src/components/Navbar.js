@@ -39,14 +39,14 @@ const Navbar = () => {
 							</li>
 						</ul>
 
-						{Credentials &&
+						{/* {Credentials &&
 							<form className="d-flex justify-content-center">
 								<input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
 								<button className="btn btn-outline-success" type="submit">
 									<i className="bi bi-search"></i>
 								</button>
 							</form>
-						}
+						} */}
 
 						{!Credentials &&
 							// i.e., if logged out then credentials is empty hence `!Credentials` is True

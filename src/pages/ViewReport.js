@@ -72,6 +72,7 @@ const AddReport = () => {
 				Job Role: {Data.jobRole}<br /><br />
 				Monthly Salary: {Data.monthlySalary}<br /><br />
 				Yearly Bonus: {Data.yearlyBonus}<br /><br />
+				Total Annual Salary: {Data.yearlyBonus + Data.monthlySalary}
 			</div>
 		}
 
